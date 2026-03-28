@@ -4,6 +4,7 @@
     <title>Student List</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
+
 <body class="container mt-5">
     <div class="d-flex justify-content-between mb-3">
         <h2>Student List</h2>

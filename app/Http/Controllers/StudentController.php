@@ -18,6 +18,7 @@ class StudentController extends Controller
     public function create()
     {
         return view('students.create');
+
     }
 
     public function store(Request $request)
@@ -26,6 +27,7 @@ class StudentController extends Controller
             'name'  => 'required',
             'email' => 'required|email|unique:students',
             'phone' => 'required|numeric|digits:11'
+            
         ]);
 
         Student::create($request->all());
