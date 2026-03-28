@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
     <title>Edit Student</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body { background-color: #f8f9fa; }
         .card { border: none; border-radius: 15px; }
     </style>
-
 </head>
 <body class="container mt-5">
     <div class="row justify-content-center">

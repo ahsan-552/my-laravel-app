@@ -27,11 +27,10 @@ class StudentController extends Controller
             'name'  => 'required',
             'email' => 'required|email|unique:students',
             'phone' => 'required|numeric|digits:11'
-            
+
         ]);
 
         Student::create($request->all());
-
         return redirect()->route('students.index')->with('success', 'Student added successfully!');
     }
 

@@ -16,9 +16,7 @@ return new class extends Migration
         $table->string('phone'); 
         $table->timestamps();
     });
-}
-
-    
+}  
     public function down(): void
     {
         Schema::dropIfExists('students');

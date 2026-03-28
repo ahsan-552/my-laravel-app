@@ -5,7 +5,6 @@ use App\Http\Controllers\StudentController;
 
 Route::get('/', function () {
     return view('welcome');
-    
 });
 
 Route::resource('students', StudentController::class);
